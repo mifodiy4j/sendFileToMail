@@ -20,5 +20,4 @@ public class ReadConfigTest {
         ReadConfig readConfig = new ReadConfig("app.properties");
         assertThat(readConfig.getMail_your(), is("smih87@yandex.ru"));
     }
-
 }
