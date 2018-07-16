@@ -12,7 +12,7 @@ public class ReadConfigTest {
     @Test
     public void whenReadMailRecipientInFileShouldReturnTrue() throws IOException {
         ReadConfig readConfig = new ReadConfig("app.properties");
-        assertThat(readConfig.getMail_recipient(), is("mifodiy67@mail.ru"));
+        assertThat(readConfig.getMail_recipient(), is("rvaleev@elg-sys.com"));
     }
 
     @Test
